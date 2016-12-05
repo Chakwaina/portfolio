@@ -142,6 +142,8 @@ nav {
     background-image: url(images/spotlight.png);
     height: 700px;
     background-size: 1000px 700px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 /*@media must stay at the very bottom no exceptions*/
