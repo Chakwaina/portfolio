@@ -94,7 +94,7 @@ nav {
     background-size: 1000px 700px;
 }
 
-.gallerybackgrounhack{
+.gallerybackgroundhack{
     background-color: #4F300E;
 }
 
@@ -190,7 +190,7 @@ nav {
         height: 480px;
         background-repeat: no-repeat;
     }
-    
+
     .bio{
         background-image: url(images/moblecontact.png);
         height: 600px;
@@ -205,28 +205,28 @@ nav {
         background-size: 1000px;
         height: auto;
     }
-    
+
     .gallery ul li{
         float:left;
         text-align: center;
         width: 230px;
     }
-    
+
     .spotlight{
         background-image: none;
         background-color: #4F300E;
         text-align: center;
         margin-top: 40px;
     }
-    
+
     .spotlight p{
         color:#EFBF73;
         margin-left:50px;
         margin-right: 50px;
     }
-    
+
     .spotlight img{
         max-width: 300px;
     }
-    
+
 }
