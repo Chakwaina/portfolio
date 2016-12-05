@@ -146,6 +146,16 @@ nav {
     margin-top: 40px;
 }
 
+.spotlight p{
+    color:#EFBF73;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.spotlight a{
+    color:#EFBF73;
+}
+
 /*@media must stay at the very bottom no exceptions*/
 @media  (max-width: 490px) {
 
@@ -175,15 +185,48 @@ nav {
     }
 
     .home{
-    background-image: url(images/moblehomepage.png);
-    background-size: 390px;
+        background-image: url(images/moblehomepage.png);
+        background-size: 390px;
         height: 480px;
         background-repeat: no-repeat;
     }
+    
+    .bio{
+        background-image: url(images/moblecontact.png);
+        height: 600px;
+        background-size: 390px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        text-align: center;
+    }
 
     .gallery{
-    background-image: url(images/gallery.png);
-    height: 700px;
-    background-size: 1000px 700px;
+        background-image: url(images/gallery.png);
+        background-size: 1000px;
+        height: auto;
     }
+    
+    .gallery ul li{
+        float:left;
+        text-align: center;
+        width: 230px;
+    }
+    
+    .spotlight{
+        background-image: none;
+        background-color: #4F300E;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .spotlight p{
+        color:#EFBF73;
+        margin-left:50px;
+        margin-right: 50px;
+    }
+    
+    .spotlight img{
+        max-width: 300px;
+    }
+    
 }
