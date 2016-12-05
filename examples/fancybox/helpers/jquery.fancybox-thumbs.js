@@ -58,7 +58,7 @@
 			}
 
 			this.wrap = $('<div id="fancybox-thumbs"></div>').addClass(opts.position).appendTo('body');
-			this.list = $('<ul>' + list + '</ul>').appendTo(this.wrap);
+			this.list = $('<ul class="clearfix">' + list + '</ul>').appendTo(this.wrap);
 
 			//Load each thumbnail
 			$.each(obj.group, function (i) {

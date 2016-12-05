@@ -27,7 +27,7 @@ a:hover {
 }
 
 body{
-    
+
 }
 
 .container{
@@ -85,7 +85,7 @@ nav {
     .social ul {
     }
 
-        .social ul li { 
+        .social ul li {
         }
 
 .home{
@@ -148,18 +148,23 @@ nav {
 
 /*@media must stay at the very bottom no exceptions*/
 @media  (max-width: 490px) {
-	
+
 
     header{
         text-align: center;
     }
-    
+
     .container{
         width: 390px;
     }
-    
+
     .logo{
-    float:none;
+        float:none;
+    }
+
+    .main {
+        float:none;
+        margin: auto;
     }
 
     nav {
@@ -176,18 +181,18 @@ nav {
                 padding-bottom: 15px;
                 padding-left: 10px;
         }
-    
+
     .social {
         margin-left: 35px;
     }
-    
+
     .home{
     background-image: url(images/moblehomepage.png);
     background-size: 390px;
         height: 480px;
         background-repeat: no-repeat;
     }
-    
+
     .gallery{
     background-image: url(images/gallery.png);
     height: 700px;
