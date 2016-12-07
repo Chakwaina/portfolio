@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#FFFFFF;
+}
+
+@font-face {
+    font-family: TrebuchetMS;
+    src: url(TrebuchetMW.ttf);
+}
+
+a{
+	font-family: TrebuchetMS;
+};
+	text-transform:uppercase;
+	font-size:12px;
+	/*removes underline from link*/
+	text-decoration: none;
+	}
+	
+/* unvisited link - has not been clicked */
+a:link {
+    color: #352713;
+}
+
+/* visited color - once it is clicked */
+a:visited {
+    color: #352713;
+}
+
+/* mouse over color */
+a:hover {
+    color: #352713;
+	text-decoration: none;
+}
+
+/* selected link - mouse down color*/
+a:active {
+    color: #352713;
+}
+
+.container{
+	width: 1200px;
+	height: 800px;
+	/*margin: 0px auto;*/
+	background-color: #FFFFFF;
+	}
+	
+	header{
+		width: 1200px;
+		height: 100px;
+		background-color: #EFBF73;
+		}
+	
+	.logo{
+		width: 200px;
+		hieght: 80px;
+		padding: 20px;
+	}
+	
+	nav{
+	float: left;
+	padding-left: 440px;
+	padding-top: 20px;
+	}
+	
+nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+nav li{
+	float: left;
+	font-family: TrebuchetMS;
+	//border: solid 2px #6C6465;
+	/*top right bottom left*/
+	margin: 10px 0px 0px 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	}
+	
+	main{
+		width: 1200px;
+		hieght: 700px;
+	}
+	
+	.home{
+		background:url(images/homepage.png);
+		width: 1200px;
+		hieght: 700px;
+	}
+	
+div {
+    font-family: TrebuchetMS;
+}
+
+/*@media must stay at the very bottom no exceptions*/
+@media  (max-width: 490px) {
+	
+}

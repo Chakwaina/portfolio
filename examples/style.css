@@ -1,0 +1,324 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: url(images/cheap_diagonal_fabric.png);
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	text-transform:uppercase;
+	font-size:12px;
+	/*removes underline from link*/
+	text-decoration: none;
+	}
+	
+/* unvisited link - has not been clicked */
+a:link {
+    color: #FFF;
+}
+
+/* visited color - once it is clicked */
+a:visited {
+    color: #FFF;
+}
+
+/* mouse over color */
+a:hover {
+    color: #E5A622;
+	text-decoration: underline;
+}
+
+/* selected link - mouse down color*/
+a:active {
+    color: #F7EE0F;
+}
+
+.container{
+	width: 89%;
+	//height: 750px;
+	margin: 0px auto;
+	background-color: #918F8F;
+	border: solid 1px #000000;
+	}
+	
+header{
+	height: 80px;
+	/*background-color: #DEDADB;*/
+	border-bottom: solid 1px #000;
+	}
+	
+.logo{
+	height: 75px;
+	width: 300px;
+	//background-color: #E41417;
+	float: left;
+	}
+	
+nav{
+	float: right;
+	//padding-left: 640px;
+	padding-top: 40px;
+	}
+	
+nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+nav li{
+	float: left;
+	//border: solid 2px #6C6465;
+	/*top right bottom left*/
+	margin: 10px 0px 0px 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	}
+	
+main{
+	//height: 625px;
+	/*background-color: #9B9191;*/
+	float: left;
+	}
+	
+main ul{
+	list-style: none;
+	margin-left: 80px;
+	margin-top: 0px;
+	padding: 0px;
+	}
+	
+	
+main li{
+	float: left;
+	margin-top: 5px;
+	margin-bottom: -6px;
+	margin-left: 3px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	opacity: 1;
+	}
+	
+main li:hover{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	opacity: 0.5;
+	}
+
+
+
+h1{
+	font-family: 'Bree Serif', sans-serif;
+	font-size: 32px;
+	color: #FFF;
+	font-weight: 600;
+	//padding: 10px;
+	margin-left: 30px;
+	margin-top: 100px;
+	}
+	
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: .5px;
+	padding: 10px;
+	margin: 10px;
+	}
+	
+h4{
+	font-family: 'Bree Serif', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 10px;
+	margin: 10px;
+	}
+	
+.main_left{
+	height: 625px;
+	width: 800px;
+	background: url(images/coffee.jpg);
+	background-size: cover;
+	float: left;
+	}
+
+.main_center{
+	height: 625px;
+	width: 400px;
+	background-color: #D53436;
+	float: left;
+	}
+
+.main_right{
+	min-height: 625px;
+	width: 400px;
+	background-color: #B87533;
+	float: left;
+	}
+
+
+.description_left{
+	//height: 625px;
+	width: 400px;
+	background-color: #C79798;
+	float: left;
+	}
+	
+.description_center{
+	//height: 625px;
+	width: 400px;
+	background-color: #DF1619;
+	float: left;
+	}
+
+.description_right{
+	//height: 625px;
+	width: 400px;
+	background-color: #B87533;
+	float: left;
+	}
+	
+.about_left{
+	height: 625px;
+	width: 800px;
+	background:url(images/coffe_house_800.jpg);
+	float: left;
+	}
+	
+.about_right{
+	height: 625px;
+	width: 400px;
+	background-color: #B87533;
+	float: left;
+	}
+	
+
+.contact_left{
+	height: 625px;
+	width: 800px;
+	float: left;
+	}
+	
+.contact_right{
+	height: 625px;
+	width: 400px;
+	background-color: #B87533;
+	float: left;
+	}
+	
+	
+.menu_left{
+	height: 625px;
+	width: 800px;
+	float: left;
+	text-align:center;
+	background: url(images/coffee_800.jpg);
+	}
+	
+.menu_left img{
+	padding-top: 70px;
+	padding-left: 35px;
+	}
+	
+.menu_right{
+	height: 625px;
+	width: 400px;
+	background-color: #B87533;
+	float: left;
+	}
+	
+	
+.event_left{
+	height: 625px;
+	width: 800px;
+	float: left;
+	text-align:center;
+	background-color: #9C9898;
+	}
+	
+.event_left img{
+	padding: 60px;
+	}
+	
+	
+.event_right{
+	height: 625px;
+	width: 400px;
+	background-color: #B87533;
+	float: left;
+	}
+	
+
+
+footer{
+	height: 47px;
+	background-color: #DEDADB;
+	border-top: solid 1px #000;
+	clear: left;
+	text-align:center;
+	}
+	
+.social_nav{
+	}
+	
+.social_nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	}
+	
+.social_nav li{
+	float: left;
+	margin: 10px;
+	}
+	
+@media  (max-width: 490px) {
+	
+ .container{
+	width: 450px;
+	//height: 750px;
+	margin: 0px auto;
+	background-color: #B37D17;
+	border: solid 1px #000000;
+	}
+	
+	
+	nav{
+	clear: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+	
+	nav li{
+		float: left;
+		}
+		
+	nav a{
+		font-size: 22px;
+		}
+	
+	.main_left{
+	width: 100%;
+	height: 100%; 
+	//background: url(images/coffee.jpg);
+	background-size: cover;
+	float: left;
+	}
+	
+	.main_right{
+	width: 100%;
+	}
+	
+	.about_left{
+	width: 100%;
+	height: 100%; 
+	background-size: cover;
+	}
+	
+	.about_right{
+	width: 100%;
+	}
+}
